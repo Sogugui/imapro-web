@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-#nuestraEmpresa{
+.titulares{
         @apply text-slate-100 text-4xl py-8 font-bold 
 }
 .swiper {
@@ -36,4 +36,5 @@
     height: 100%;
     object-fit: cover;
   }
+
   

@@ -10,15 +10,15 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay,Navigation } from "swiper";
 
 const About = () => {
+ 
   return (
     <div>
-      <h1 id="nuestraEmpresa" className='animate__animated animate__backInLeft'>Nuestra Empresa</h1>
+      <h1 className=' titulares animate__animated animate__backInLeft'>Nuestra Empresa</h1>
       <section className="flex flex-col justify-center antialiased bg-gray-900 text-gray-200 min-h-screen">
         <div className="max-w-6xl mx-auto p-4 sm:px-6 h-full">
-          {/* <!-- Blog post --> */}
           <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
           <Swiper
         spaceBetween={30}
@@ -27,11 +27,8 @@ const About = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        pagination={{
-          clickable: true,
-        }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay,Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><a className="relative block group" href="#0">
@@ -68,6 +65,8 @@ const About = () => {
           </article>
         </div>
       </section>
+
+      
     </div>
   )
 }
