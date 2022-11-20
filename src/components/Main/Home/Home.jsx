@@ -1,7 +1,9 @@
 import React from 'react'
 import imaproblack from '../../../assets/imapro eslogan.jpg'
 import './Home.css'
-
+import target from '../../../assets/target-gb5c395d3f_1280.png'
+import mision from '../../../assets/space-g3b52a94e6_1280.png'
+import vision from '../../../assets/vision-gbdac8fcc2_1280.png'
 const Home = () => {
   const navigation = [
     { title: "Customers", path: "javascript:void(0)" },
@@ -11,19 +13,19 @@ const posts = [
   {
       title: "MISIÓN",
       desc:"Somos un equipo profesional de trabajo, buscamos ofrecer las mejores soluciones para nuestros clientes.Ademàs de ello, queremos que nuestros clientes concluyan satisfechos por nuestra labor ante sus necesidades.Queremos ser aliados de nuestros clientes, para poder elaborar sus ideas en proyectos y que los mismos se cumplan.",
-      img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      img: mision,
 
   },
   {
       title: "VISIÓN",
       desc: "Queremos que el nombre de IMAPRO sea conocido nacionalmente e internacionalmente por ofrecer las mejores calidades de soluciones y servicios de ingeniería.Además de elaborar los estrictos estándares de calidad, tiempo, seguridad y ambiente, proporcionando valor agregado a sus clientes y otras partes interesadas.",
-      img: "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      img: vision,
 
   },
   {
       title: "OBJETIVOS",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque gravida leo eget mi vestibulum, sit amet dapibus turpis mattis. In sit amet magna ut justo fringilla consequat sed et erat. Nunc quis placerat diam. Maecenas tempor luctus diam, id semper ex semper vitae. Fusce at ullamcorper nunc, ut lacinia erat. Morbi a nisl nec metus tristique tristique eget in nibh.",
-      img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      desc: "Disminuir el impacto ambiental y prevenir riesgos que puedan ocasionar o atravesar las empresas u organizaciones. Tenemos como propósito orientar a entidades tanto publicas como privadas en el incremento de la eficiencia de sus productos y servicios, teniendo en cuenta el mercado existente, futuro, el ambiente y su capacidad de producción.",
+      img: target,
 
   }
 ]
@@ -48,9 +50,9 @@ const posts = [
           <div className="mt-8  grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
             {
               posts.map((items, key) => (
-                <article className="max-w-md mx-auto mb-[30px] h-fit shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
-                  <a href={items.href}>
-                    <img src={items.img} loading="lazy" alt={items.title} className="w-full h-48 rounded-t-md" />
+                <article className="flex items-center max-w-md mx-auto mb-[30px]  h-fit shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
+                  <a href={items.href} className="flex justify-center flex-col items-center">
+                    <img src={items.img} loading="lazy" alt={items.title} className=" flex mt-2 items-end w-48 h-48 rounded-t-md" />
                     <div className="pt-3 ml-4 mr-2 mb-3">
                       <h3 className="text-xl text-slate-100">
                         {items.title}
