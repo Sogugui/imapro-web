@@ -1,0 +1,12 @@
+#contact{
+/* background:rgb(17,34,29);
+background: linear-gradient(270deg, rgba(17,34,29,1) 0%, rgba(94,138,191,1) 100%); */
+background-image: url("../../../assets/drone-gb518d4f23_1920.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#containerContact{
+    backdrop-filter: blur(5px);
+}
