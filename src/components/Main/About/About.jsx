@@ -20,22 +20,35 @@ import {
 } from "@material-tailwind/react";
 
 // import required modules
-import { Autoplay,Navigation } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 
 //assets
 import carlos from '../../../assets/Ing. Carlos Rodolfo Guardia. Director. Esp en Ing. Ambiental y en H&S.png'
 import martin from '../../../assets/Ing. José Martín Glavas. Asesor. Ing. Químico.png'
-import isabel from '../../../assets/isabel.jpeg'  
+import isabel from '../../../assets/isabel.jpeg'
 import juankot from '../../../assets/Juan Alberto Kot. Asesor. Arquitecto.png'
 // import gustavo from '../../../assets/' PEDIR
 import alejandro from '../../../assets/Alejandro Benítez. Asesor. Téc. en Gestión Ambiental.jpeg'
-// import pedro from '../../../assets/' PEDIR
+import pedro from '../../../assets/WhatsApp Image 2023-02-23 at 19.03.23.jpeg'
 import sebastian from '../../../assets/Sebastián Patricio Welch. médico.jpeg'
 import mali from '../../../assets/Ing. Hidráulica María Elina Serrano[2493].jpeg'
 import jorge from '../../../assets/jorgesolis.jpeg'
+import gervasoni from '../../../assets/WhatsApp Image 2023-01-25 at 23.38.22.jpeg'
+import anabella from '../../../assets/WhatsApp Image 2023-01-20 at 22.58.18.jpeg'
 import title from '../../../assets/icons8-certification-64.png'
 import labor from '../../../assets/icons8-maletín-50.png'
 
+// import assets for swiper slide
+import swiper1 from '../../../assets/swiper1.png'
+import swiper2 from '../../../assets/swiper2.png'
+import swiper3 from '../../../assets/swiper3.png'
+import swiper4 from '../../../assets/swiper4.png'
+import swiper5 from '../../../assets/swiper5.png'
+import swiper6 from '../../../assets/swiper6.png'
+import swiper7 from '../../../assets/swiper7.png'
+import swiper8 from '../../../assets/swiper8.png'
+import swiper9 from '../../../assets/swiper9.png'
+import swiper10 from '../../../assets/swiper10.png'
 
 const About = () => {
 
@@ -45,34 +58,70 @@ const About = () => {
       <section className="flex flex-col justify-center antialiased bg-gray-900 text-gray-200 min-h-screen">
         <div className="max-w-7xl mx-auto max-h-7xl p-4 sm:px-6 h-full">
           <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
-          <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        navigation={true}
-        modules={[Autoplay,Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide><a className="relative block group" href="#0">
-              <div className="absolute inset-0 bg-gray-800 hidden md:block transform md:translate-y-2 md:translate-x-4 xl:translate-y-4 xl:translate-x-8 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out pointer-events-none" aria-hidden="true"></div>
-              <figure className="relative h-0 pb-[56.25%] md:pb-[75%] lg:pb-[56.25%] overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
-                <img className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out" src="https://preview.cruip.com/open-pro/images/blog-post-01.jpg" width="840" height="700" alt="Blog post" />
-                
-              </figure>
-            </a></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-            
+            <Swiper
+              spaceBetween={30}
+              centeredSlides={true}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              navigation={true}
+              modules={[Autoplay, Navigation]}
+              className="mySwiper"
+            >
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper1} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper2} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper3} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper4} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper5} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper6} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper7} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper8} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper9} />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className='flex '>
+                <div className="h-full w-full flex flex-col items-center justify-evenly">
+                  <img src={swiper10} />
+                </div>
+              </SwiperSlide>
+
+            </Swiper>
+
             <div>
               <header>
                 <h3 className="text-3xl lg:text-4xl font-bold leading-tight mb-2">
@@ -92,194 +141,229 @@ const About = () => {
       </section>
       {/* Equipo de la empresa */}
       <section>
-      <h1 className='titulares animate__animated animate__bounce'>Conocé a parte del equipo</h1>
-      <section className=" dark:bg-gray-900">
-    <div className="container px-6 py-12 mx-auto">
-        <div className="mt-8 xl:mt-16 lg:flex lg:-mx-12">
-            <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
+        <h1 className='titulares animate__animated animate__bounce'>Conocé a parte del equipo</h1>
+        <section className=" dark:bg-gray-900">
+          <div className="container px-6 py-12 mx-auto">
+            <div className="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+              <div className="flex-1 mt-8 lg:mx-12 lg:mt-0">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3 ">
-                    <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={carlos}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Ing. Carlos R. Guardia</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={carlos}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Ing. Carlos R. Guardia</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Fundador y Director general</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Fundador y Director general</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Ingeniero en vías de comunicación</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Ingeniero en vías de comunicación</h1>
+                    </div>
+                  </div>
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={martin}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Ing. José Martín Glavas</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={martin}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Ing. José Martín Glavas</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Ingeniero Químico</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Ingeniero Químico</h1>
+                    </div>
+                  </div>
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={isabel}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Dra. María Isabel Guillán</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={isabel}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Dra. María Isabel Guillán</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesora Técnica</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesora Técnica</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Doctora en Lingüística</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Doctora en Lingüística</h1>
+                    </div>
+                  </div>
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={juankot}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Arq. Juan Alberto Kot</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={juankot}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Arq. Juan Alberto Kot</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Arquitecto</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Arquitecto</h1>
+                    </div>
+                  </div>
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={carlos}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Lic. Gustavo Carreras</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={carlos}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Lic. Gustavo Carreras</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Lic. en Seguridad e Higiene en el Trabajo</h1>
-        </div>
-         </div>
-         
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Lic. en Seguridad e Higiene en el Trabajo</h1>
+                    </div>
+                  </div>
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={alejandro}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Téc. Alejandro Benítez</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={alejandro}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Téc. Alejandro Benítez</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Téc. en Gestión Ambiental</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={carlos}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Lic. Pedro Barrios</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Téc. en Gestión Ambiental</h1>
+                    </div>
+                  </div>
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={pedro}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Lic. Pedro Barrios</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Lic. en Gestión Ambiental</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={sebastian}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Dr. Sebastián Patricio Welsh</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Lic. en Gestión Ambiental</h1>
+                    </div>
+                  </div>
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={sebastian}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Dr. Sebastián Patricio Welsh</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Médico</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={jorge}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Dr. Jorge Solís Carnicer</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Médico</h1>
+                    </div>
+                  </div>
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={jorge}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Dr. Jorge Solís Carnicer</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Médico Veterinario</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-         <div>
-                        <img className="object-cover w-full rounded-lg h-96 "
-                            src={mali}
-                            alt=""/>
-                        <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Ing. María Elina Serrano</h2>
-                        <div className="flex items-center mt-4 px-1 text-slate-400">
-           <img src={labor} className="w-6 h-8 fill-current" alt="" />
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Médico Veterinario</h1>
+                    </div>
+                  </div>
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesora Técnico</h1>
-        </div>
-        <div className="flex items-center mt-4 text-slate-400 ">
-            <img src={title} className="w-9 h-9 fill-current" alt="" />
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={mali}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Ing. María Elina Serrano</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
-            <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Ingeniera Hidráulica</h1>
-        </div>
-         </div>
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesora Técnica</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
 
-              
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Ingeniera Hidráulica</h1>
+                    </div>
+                  </div>
+
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={gervasoni}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Tec. Gonzalo Gervasoni</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
+
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesor Técnico</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
+
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Téc. en Seguridad e Higiene en el Trabajo</h1>
+                    </div>
+                  </div>
+
+                  <div>
+                    <img className="object-cover w-full rounded-lg h-96 "
+                      src={anabella}
+                      alt="" />
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Téc. Anabella Fabiana Fernándezzº</h2>
+                    <div className="flex items-center mt-4 px-1 text-slate-400">
+                      <img src={labor} className="w-6 h-8 fill-current" alt="" />
+
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-2">Asesora Técnica</h1>
+                    </div>
+                    <div className="flex items-center mt-4 text-slate-400 ">
+                      <img src={title} className="w-9 h-9 fill-current" alt="" />
+
+                      <h1 className=" text-lg tracking-wider text-slate-500 uppercase px-1">Téc. Maestro Mayor de Obras</h1>
+                    </div>
+                  </div>
+
+
+
                 </div>
+              </div>
             </div>
-        </div>
-    </div>
-</section>
-       
+          </div>
+        </section>
+
 
       </section>
 
-      
+
     </div>
   )
 }
