@@ -140,7 +140,7 @@ const Home = () => {
           </Dialog>
         </header> */}
 
-        <div className="relative">
+        <div className="relative select-none">
           <div className="mx-auto max-w-7xl">
             <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
               <svg
@@ -188,7 +188,7 @@ const Home = () => {
         </div>
       </div>
 
-      <section>
+      <section className='select-none'>
         <h1 className='titulares animate__animated animate__backInLeft'>Nuestros pilares fundamentales </h1>
         <section className="cardsPilars">
           <div className="mt-8  grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
