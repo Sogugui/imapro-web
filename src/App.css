@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .App {
- @apply text-center bg-gray-900 h-[100%] w-[100%]
+ @apply text-center bg-gray-900 h-[100%] w-[100%] 
 }
 
 .App-logo {
