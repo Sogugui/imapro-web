@@ -333,7 +333,7 @@ const About = () => {
                     <img className="object-cover w-full rounded-3xl h-64 "
                       src={anabella}
                       alt="" />
-                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Téc. Anabella Fabiana Fernándezzº</h2>
+                    <h2 className="mt-4 text-2xl font-semibold text-slate-100 capitalize dark:text-white">Téc. Anabella Fabiana Fernández</h2>
                     <div className="flex items-center mt-4 px-1 text-slate-400">
                       <img src={labor} className="w-6 h-8 fill-current" alt="" />
 
