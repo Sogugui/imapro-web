@@ -28,14 +28,6 @@ const Contact = () => {
       );
   };
 
-  //   const handleChange = event => {
-  //     setField(event.target.value);
-  //   };
-  //   const handleClick = () => {
-  //     // 👇️ clear input value
-  //     form.current.value= ""
-  //   };
-
   return (
     <>
       <section id="contact" className="min-h-screen">
@@ -44,17 +36,9 @@ const Contact = () => {
             <div className="flex-1 lg:flex lg:items-center lg:-mx-6 items-center">
               <div
                 id="direcciones"
-                className="text-white lg:w-1/2 lg:mx-6 items-center"
+                className="text-white lg:w-1/2 lg:mx-6 items-center "
               >
-                <h1 className="animate__animated animate__backInDown text-3xl font-semibold capitalize lg:text-4xl">
-                  Nuestras direcciones
-                </h1>
-
-                <p className="max-w-xl text-xl font-semibold mt-6">
-                  También podes comunicarte con nosotros por estos medios:
-                </p>
-
-                <div className="px-8 mt-6 space-y-8 text-xl md:mt-8 flex flex-col font-bold ">
+                <div className=" mt-6 space-y-8 text-xl md:mt-8 flex flex-col font-bold ">
                   <p className="flex text-left -mx-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -76,9 +60,8 @@ const Contact = () => {
                       />
                     </svg>
 
-                    <span className="mx-2 text-white  w-72">
-                      Colectora norte y Av. Vélez Sarsfield, Ruta 16 km 10.5,
-                      Resistencia, Chaco
+                    <span className="mx-2 text-white ">
+                      Av. Vélez Sarsfield 4638, Resistencia, Chaco
                     </span>
                   </p>
 
@@ -125,7 +108,7 @@ const Contact = () => {
                   </p>
                 </div>
 
-                <div className="mt-6 md:mt-8">
+                <div className="mt-10 md:mt-12">
                   <h3 className="text-white text-xl ">
                     Seguinos en nuestras redes
                   </h3>

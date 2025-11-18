@@ -31,9 +31,9 @@ export const teamMembers = [
   {
     id: 5,
     image: require("../../../assets/Alejandro Benítez. Asesor. Téc. en Gestión Ambiental.jpeg"),
-    name: "Téc. Alejandro Benítez",
+    name: "Lic. Alejandro Benítez",
     position: "Asesor Técnico",
-    title: "Téc. en Gestión Ambiental",
+    title: "Licenciado en Gestión Ambiental",
   },
   {
     id: 6,
@@ -62,20 +62,6 @@ export const teamMembers = [
     name: "Ing. María Elina Serrano",
     position: "Asesora Técnica",
     title: "Ingeniera Hidráulica",
-  },
-  {
-    id: 10,
-    image: require("../../../assets/WhatsApp Image 2023-01-25 at 23.38.22.jpeg"),
-    name: "Tec. Gonzalo Gervasoni",
-    position: "Asesor Técnico",
-    title: "Téc. en Seguridad e Higiene en el Trabajo",
-  },
-  {
-    id: 11,
-    image: require("../../../assets/WhatsApp Image 2023-01-20 at 22.58.18.jpeg"),
-    name: "Téc. Anabella Fabiana Fernández",
-    position: "Asesora Técnica",
-    title: "Téc. Maestro Mayor de Obras",
   },
 ];
 

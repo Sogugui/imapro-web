@@ -4,15 +4,14 @@ const CompanyDescription = () => {
   return (
     <div>
       <header>
-        <h3 className="text-3xl lg:text-4xl font-bold leading-tight mb-2 text-justify">
-          <a
-            className="hover:text-gray-100 transition duration-150 ease-in-out"
-            href="#0"
-          >
+        <h3 className="text-3xl lg:text-4xl font-bold leading-tight mb-2">
+          <span className="hover:text-gray-100">
             <span className="text-lime-700">IMAPRO </span>
-            viene de las siglas de Ingeniería, Mediciones, Ambiente, Producción
-            y Riesgo Operativo
-          </a>
+            <span className="text-gray-100">
+              viene de las siglas de Ingeniería, Mediciones, Ambiente,
+              Producción y Riesgo Operativo
+            </span>
+          </span>
         </h3>
       </header>
       <p className="text-xl text-gray-400 flex-grow text-justify">

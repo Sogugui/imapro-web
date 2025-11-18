@@ -13,7 +13,6 @@ import { teamMembers, swiperImages, icons } from "./data";
 const About = () => {
   return (
     <div>
-      {/* Company Introduction Section */}
       <section className="flex flex-col justify-center antialiased bg-gray-900 text-gray-200 min-h-screen">
         <div className="max-w-7xl mx-auto max-h-7xl p-4 sm:px-6 h-full">
           <article className="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
@@ -22,7 +21,6 @@ const About = () => {
           </article>
         </div>
       </section>
-      {/* Team Section */}
       <section>
         <h1 className="titulares animate__animated animate__bounce">
           Conoce a parte del equipo
