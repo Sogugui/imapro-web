@@ -4,10 +4,10 @@ const CompanyDescription = () => {
   return (
     <div>
       <header>
-        <h3 className="text-3xl lg:text-4xl font-bold leading-tight mb-2">
+        <h3 className="text-3xl lg:text-4xl font-bold leading-tight mb-2 text-justify">
           <span className="hover:text-gray-100">
             <span className="text-lime-700">IMAPRO </span>
-            <span className="text-gray-100">
+            <span className="text-gray-100 ">
               viene de las siglas de Ingeniería, Mediciones, Ambiente,
               Producción y Riesgo Operativo
             </span>
